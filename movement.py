@@ -1,4 +1,4 @@
-from floor import Floorrender
+from render import Floorrender
 import pygame as pg
 import numpy as np
 

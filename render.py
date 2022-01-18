@@ -8,7 +8,7 @@ class Floorrender:
     SKY = pg.surfarray.array3d(pg.transform.scale(SKYTEXTURE, (360, Game.HalfVRes * 2)))
     FLOORTEXTURE = pg.surfarray.array3d(pg.image.load('floor.jpg'))
     posx, posy, rot = 0, 0, 0
-    size = 3
+    size = 5
     map = np.random.choice([0, 0, 0, 0, 1], (size, size))
 
     def __init__(self):

@@ -39,10 +39,11 @@ class Game:
 
             self.update()
             Movemetn(pg.key.get_pressed(), self.CLOCK.tick())
-        pg.quit()
 
 
-from floor import Floorrender
+
+from render import Floorrender
 from movement import Movemetn
 
 Game()
+pg.quit()
