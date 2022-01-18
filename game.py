@@ -38,7 +38,7 @@ class Game:
             Floorrender()
 
             self.update()
-            Movemetn(pg.key.get_pressed(), pg.time.get_ticks())
+            Movemetn(pg.key.get_pressed(), self.CLOCK.tick())
         pg.quit()
 
 
