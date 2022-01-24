@@ -41,27 +41,3 @@ class Floorrender:
 
                 else:
                     Game.FRAME[i][Game.HalfVRes * 2 - j - 1] = shade * self.FLOORTEXTURE[xx][yy] / 255
-
-                # if int(x)%2 == int(y)%2:
-                #     Game.FRAME[i][Game.HalfVRes*2 - j - 1] = [0, 0, 0]
-                # else:
-                #     Game.FRAME[i][Game.HalfVRes*2 - j - 1] = [1, 1, 1]
-
-                # Walls()
-                # x = self.posx
-                # y = self.posy
-                # while self.map[int(x) % (self.size - 1)][int(y) % (self.size - 1)] == 0:
-                #     x = x + 0.01 * cos
-                #     y = y + 0.01 * sin
-                #
-                # n = abs((x - self.posx) / cos)
-                # h = int(Game.HalfVRes / (n * cos2 + 0.001))
-                #
-                # shade = 0.3 + 0.7 * (h / Game.HalfVRes)
-                # if shade > 0.5:
-                #     shade = 0.5
-                # c = shade * np.ones(3)
-                # for k in range(h * 2):
-                #     if 0 <= Game.HalfVRes - h + k < 2 * Game.HalfVRes:
-                #         Game.FRAME[i][Game.HalfVRes - h + k] = c
-                #
